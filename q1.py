@@ -1,5 +1,5 @@
 
-def findMinSequenceCount(source: str, target: str):
+def findMinSequenceCount(source: str, target: str) -> int:
     def longestSub(i, j):
         while i < n and j < m:
             if source[i] == target[j]:
